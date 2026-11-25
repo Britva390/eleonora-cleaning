@@ -30,7 +30,7 @@ export function Hero({ server, onOpenConnect }: HeroProps) {
       {/* Background Art + Layered Dark Crimson Vignette */}
       <div className="pointer-events-none absolute inset-0 z-0">
         <img
-          src="/images/hero-virus.jpg"
+          src={`${import.meta.env.BASE_URL}images/hero-virus.jpg`}
           alt="Карантинный КПП MezhMir Virus RP"
           className="h-full w-full object-cover object-center opacity-55"
         />

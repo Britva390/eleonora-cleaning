@@ -58,7 +58,7 @@ export function LoreAndFactions() {
             <div className="dossier-card relative overflow-hidden rounded-md">
               <div className="relative h-64 w-full sm:h-72">
                 <img
-                  src="/images/deer-isle-camp.jpg"
+                  src={`${import.meta.env.BASE_URL}images/deer-isle-camp.jpg`}
                   alt="Лагерь беженцев на Оленьем острове под потусторонними огнями"
                   className="h-full w-full object-cover"
                 />

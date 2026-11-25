@@ -26,7 +26,7 @@ export function Navbar({ server, onOpenConnect }: NavbarProps) {
         <a href="#" className="group flex items-center gap-3">
           <div className="relative h-9 w-9 overflow-hidden rounded border border-white/15 bg-black">
             <img
-              src="/images/emblem.png"
+              src={`${import.meta.env.BASE_URL}images/emblem.png`}
               alt="MezhMir Virus RP Emblem"
               className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
