@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-4 sm:flex-row sm:items-center sm:px-6 lg:px-8">
         <div className="flex items-center gap-3">
           <img
-            src="/images/emblem.png"
+            src={`${import.meta.env.BASE_URL}images/emblem.png`}
             alt="MezhMir Emblem"
             className="h-9 w-9 rounded border border-white/10 object-cover"
           />

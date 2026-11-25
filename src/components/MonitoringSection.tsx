@@ -189,7 +189,7 @@ export function MonitoringSection({ server }: MonitoringSectionProps) {
             <div className="dossier-card relative overflow-hidden rounded-md">
               <div className="relative h-56 w-full">
                 <img
-                  src="/images/biohazard-zone.jpg"
+                  src={`${import.meta.env.BASE_URL}images/biohazard-zone.jpg`}
                   alt="Карантинный бункер MezhMir"
                   className="h-full w-full object-cover opacity-80"
                 />
